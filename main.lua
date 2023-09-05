@@ -81,9 +81,8 @@ local Window = Rayfield:CreateWindow({
  local Section = Tab:CreateSection("South London 2 ")
 
  local Button = Tab:CreateButton({
-   Name = "Infinite Yield ",
+   Name = "Solar Hub for SL2",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/rip2point/Solar-Hub/main/Other%20Stuff/SOLARHUB", true))()
    end,
 })
-
